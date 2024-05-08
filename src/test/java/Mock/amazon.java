@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class amazon {
 
 	public static void main(String[] args) throws Throwable {
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new EdgeDriver();
 		driver.manage().window().fullscreen();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.amazon.in/");
